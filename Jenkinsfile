@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clone') { 
             steps {
-                git url:'https://github.com/Sharmila-qt1/gameoflife.git, branch : 'master' 
+                git url:'https://github.com/Sharmila-qt1/openmrs-core.git, branch : 'master' 
             }
         }
         stage('install') { 

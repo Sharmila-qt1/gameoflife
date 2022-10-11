@@ -8,7 +8,7 @@ pipeline {
         }
         stage('install') { 
             steps {
-               sh 'clean install'
+               sh 'java -version'
             }
         }
     }
